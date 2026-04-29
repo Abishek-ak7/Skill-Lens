@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "SkillLens | Smart Resume Analyzer & Role Matching",
+  title: "SkillLenZ | Smart Resume Analyzer & Role Matching",
   description:
-    "Analyze your resume, match job roles, and discover missing skills with SkillLens.",
+    "Analyze your resume, match job roles, and discover missing skills with SkillLenZ.",
 };
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <nav style={styles.nav}>
         <div style={styles.container}>
           <div style={styles.navInner}>
-            <h2 style={{ margin: 0 }}>SkillLens</h2>
+            <h2 style={{ margin: 0 }}>SkillLenZ</h2>
 
             <div style={styles.navActions}>
               <a href="/upload" style={styles.primaryNavBtn}>
@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
 
           <p style={styles.heroDesc}>
-            SkillLens analyzes your resume, matches job roles, and helps you identify missing skills.
+            SkillLenZ analyzes your resume, matches job roles, and helps you identify missing skills.
           </p>
 
           <a href="/upload">
@@ -50,7 +50,7 @@ export default function Home() {
       {/* FEATURES */}
       <section style={styles.section}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>🧠 What SkillLens Does</h2>
+          <h2 style={styles.sectionTitle}>🧠 What SkillLenZ Does</h2>
 
           <div style={styles.grid}>
             <Card title="📊 Resume Score" desc="Understand your resume strength." />
@@ -89,7 +89,7 @@ export default function Home() {
       {/* CTA */}
       <section style={styles.cta}>
         <div style={styles.container}>
-          <h2>Improve Your Resume with SkillLens</h2>
+          <h2>Improve Your Resume with SkillLenZ</h2>
           <p>Clear insights. Better opportunities.</p>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer style={styles.footer}>
         <div style={styles.container}>
-          <h3>SkillLens</h3>
+          <h3>SkillLenZ</h3>
 
           <p style={{ marginTop: "10px" }}>
             Smart resume analysis tool for better career decisions.
@@ -109,7 +109,7 @@ export default function Home() {
           </div>
 
           <p style={{ marginTop: "20px", fontSize: "13px", color: "#888" }}>
-            © 2026 SkillLens
+            © 2026 SkillLenZ
           </p>
         </div>
       </footer>
